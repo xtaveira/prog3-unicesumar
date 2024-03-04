@@ -19,4 +19,7 @@ export class Products {
             console.log(error)
         }
     }
+    getData() {
+        return this.data
+    }
 }
